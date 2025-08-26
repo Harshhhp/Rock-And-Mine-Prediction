@@ -32,11 +32,16 @@ Logistic Regression is used here as a baseline model to perform the classificati
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/sonar-rock-mine-classification.git
-2.pip install -r requirements.txt
-3.jupyter notebook sonar_model.ipynb
+Install the required libraries:
+
+pip install -r requirements.txt
 
 
-✌️✌️Results
+Open the notebook and run it in Jupyter or Google Colab:
+
+jupyter notebook sonar_model.ipynb
+
+Results
 
 Training Accuracy: ~80–85%
 
@@ -44,14 +49,10 @@ Test Accuracy: ~76%
 
 This shows that Logistic Regression can handle the classification reasonably well, but the dataset is not perfectly separable with a linear model.
 
-❤️❤️Future Work
+Future Work
 
 Try more powerful models like Support Vector Machines (SVM) or Random Forests
 
 Apply dimensionality reduction (PCA) to reduce noise
 
 Use cross-validation for more reliable evaluation
-
-
-   cd sonar-rock-mine-classification
-
